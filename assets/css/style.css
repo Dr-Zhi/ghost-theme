@@ -111,7 +111,7 @@ a:focus {
 }
 
 .post-content a {
-    border-bottom: 2px solid #FF512F
+    border-bottom: 1px solid rgba(255, 81, 47, 0.5)
 }
 
 .post-content a:hover,
@@ -1244,7 +1244,7 @@ body {
 
 .post-list .post {
     float: left;
-    width: 33.30%;
+    width: 49.9%;
     -webkit-transform: translate3d(0, 3em, 0);
     transform: translate3d(0, 3em, 0);
     -webkit-transform-style: preserve-3d;
@@ -1256,13 +1256,13 @@ body {
     animation-delay: 1.4s
 }
 
-@media only screen and (max-width: 50em) {
+@media only screen and (max-width: 80em) {
     .post-list .post {
         width: 49.90%
     }
 }
 
-@media only screen and (max-width: 30em) {
+@media only screen and (max-width: 40em) {
     .post-list .post {
         width: 100%;
         float: none
