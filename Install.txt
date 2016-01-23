@@ -1,0 +1,8 @@
+Step 1: Upload your theme (guide: http://www.ghostforbeginners.com/how-to-upload-a-theme/).
+Step 2: Change your theme in ghost dashboard.
+Step 3: Up load your cover & logo.
+Step 4: Customized if you like.
+Step 5: Enable Disqus: To enable Disqus comments go to your blogs code injection settings and add: 
+<script>var disqus="YOUR_DISQUS_SHORTNAME";</script> to your blog header.
+
+Good luck!.
