@@ -6,14 +6,14 @@
     font-family: 'Inconsolata';
     font-style: normal;
     font-weight: 400;
-    src: local("Inconsolata"), url("//fonts.gstatic.com/s/inconsolata/v12/BjAYBlHtW3CJxDcjzrnZCIbN6UDyHWBl620a-IRfuBk.woff") format("woff")
+/*    src: local("Inconsolata"), url("//fonts.gstatic.com/s/inconsolata/v12/BjAYBlHtW3CJxDcjzrnZCIbN6UDyHWBl620a-IRfuBk.woff") format("woff") */
 }
 
 @font-face {
     font-family: 'Inconsolata';
     font-style: normal;
     font-weight: 700;
-    src: local("Inconsolata Bold"), local("Inconsolata-Bold"), url("//fonts.gstatic.com/s/inconsolata/v12/AIed271kqQlcIRSOnQH0yTqR_3kx9_hJXbbyU8S6IN0.woff") format("woff")
+/*    src: local("Inconsolata Bold"), local("Inconsolata-Bold"), url("//fonts.gstatic.com/s/inconsolata/v12/AIed271kqQlcIRSOnQH0yTqR_3kx9_hJXbbyU8S6IN0.woff") format("woff") */
 }
 
 @font-face {
@@ -84,7 +84,7 @@
 }
 
 body {
-    font: 300 1em / 1.5em 'Roboto', sans-serif;
+    font: 300 1em / 1.5em sans-serif;
     color: #333;
 }
 
@@ -170,10 +170,6 @@ p {
     margin: 2em auto
 }
 
-ul {
-    list-style: none
-}
-
 li {
     position: relative
 }
@@ -182,7 +178,7 @@ ul>li:before,
 ol>li:before {
     position: absolute;
     width: 2em;
-    margin-left: -3em;
+    margin-left: -2.4em;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.5em;
@@ -192,7 +188,6 @@ ol>li:before {
 
 ul>li:before {
     margin-top: 0.125em;
-    content: '*'
 }
 
 ol {
@@ -207,7 +202,7 @@ ol>li:before {
 
 ol,
 ul {
-    padding-left: 3em;
+    padding-left: 1.5em;
     margin: 2em auto
 }
 
@@ -216,7 +211,7 @@ ol ul,
 ul ol,
 ul ul {
     padding-left: 1.5em;
-    margin: 1em auto
+    margin: 0em auto
 }
 
 dl {
