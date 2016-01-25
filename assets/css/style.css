@@ -145,29 +145,30 @@ h6 a {
 h1 {
     font-size: 2em;
     line-height: 1em;
-    margin: 2em 0 -0.5em
+    margin: 0.8em 0 0em
 }
 
 h2 {
     font-size: 1.75em;
     line-height: 1.143em;
-    margin: 2.286em 0 -0.571em
+    margin: 0.5em 0 0em
 }
 
 h3 {
     font-size: 1.5em;
     line-height: 1.334em;
-    margin: 2em 0 -0.667em
+    margin: 0.5em 0 0em
 }
 
 h4 {
     font-size: 1.25em;
     line-height: 1.2em;
-    margin: 2.4em 0 -0.8em
+    margin: 0.5em 0 0em
 }
 
 p {
-    margin: 2em auto
+    margin-top: 0.2em;
+    margin-bottom: 0em
 }
 
 li {
@@ -203,7 +204,8 @@ ol>li:before {
 ol,
 ul {
     padding-left: 1.5em;
-    margin: 2em auto
+    margin-top: 0.5em;
+    margin-bottom: 0em
 }
 
 ol ol,
@@ -241,7 +243,7 @@ hr {
 }
 
 blockquote {
-    margin: 2em auto;
+    margin: 0.3em auto;
     padding: 0 1em;
     box-sizing: border-box;
     border-left: 0.25em solid #D4D5D9;
@@ -252,7 +254,7 @@ blockquote {
 }
 
 blockquote * {
-    margin: 1em auto
+    margin: 0em auto
 }
 
 blockquote *:first-child {
@@ -302,7 +304,7 @@ tt {
 }
 
 pre {
-    margin: 2em auto;
+    margin: 0.5em auto;
     width: 100%;
     padding: 1em;
     font-family: 'Inconsolata', monospace;
@@ -317,7 +319,7 @@ pre code,
 pre tt {
     position: static;
     top: auto;
-    font-size: 1em;
+    font-size: 0.9em;
     line-height: 1.5em;
     white-space: -moz-pre-wrap;
     white-space: pre-wrap;
@@ -329,16 +331,17 @@ pre tt {
 
 pre.codeblock {
     position: relative;
-    padding: 1em;
+    padding: 0em;
+    padding-left: 0.5em;
     overflow: hidden
 }
 
 pre.codeblock code {
     display: block;
     border: 0;
-    padding: 1.5em;
-    padding-left: 4em;
-    margin: -1em;
+    padding: 0.5em;
+    padding-left: 3em;
+    margin: 0em;
     white-space: inherit;
     overflow-x: scroll;
     background: #E1E2E6
@@ -346,13 +349,13 @@ pre.codeblock code {
 
 pre.codeblock .lines {
     position: absolute;
-    width: 3em;
+    width: 2.5em;
     height: 100%;
     left: 0;
     top: 0;
-    padding: 1.5em 0;
+    padding: 0.5em 0;
     border-right: 1px solid #D4D5D9;
-    font-size: 1em;
+    font-size: 0.9em;
     line-height: 1.5em;
     text-align: right;
     box-sizing: border-box;
@@ -413,7 +416,7 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-    margin: 2.5em auto
+    margin: 0.5em auto
 }
 
 iframe {
@@ -1113,7 +1116,7 @@ body {
     text-align: center;
     font-size: 0.75em;
     line-height: 1.334em;
-    padding: 2.667em;
+    padding: 2em;
     overflow: auto
 }
 
@@ -1472,7 +1475,7 @@ body {
 }
 
 .post-list .post .post-title {
-    font-size: 1.5em;
+    font-size: 2em;
     line-height: 1.167em
 }
 
