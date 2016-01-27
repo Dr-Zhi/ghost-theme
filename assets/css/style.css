@@ -1,7 +1,3 @@
-* {
-    text-shadow: 0px 0px 1px #DDD !important; /* #DCDCDC */
-}
-
 @font-face {
     font-family: 'Inconsolata';
     font-style: normal;
@@ -84,8 +80,8 @@
 }
 
 body {
-    font: 300 1em / 1.5em sans-serif;
-    color: #333;
+    font: 400 1em / 1.5em sans-serif;
+    color: #444;
 }
 
 ::-moz-selection,
@@ -105,8 +101,8 @@ body {
 a {
     color: inherit;
     text-decoration: none;
-    font-weight: 400;
-    transition: all ease-out 0.2s
+    font-weight: 300;
+    transition: all ease-out 0.4s
 }
 
 a:hover,
@@ -115,12 +111,13 @@ a:focus {
 }
 
 .post-content a {
-    border-bottom: 1px solid rgba(0, 0, 255, 0.5)
+    font-style: italic;
+    /*border-bottom: 1px solid rgba(0, 0, 255, 0.5)*/
 }
 
 .post-content a:hover,
 .post-content a:focus {
-    border-color: #DD2476
+    border-bottom: 2px solid #DD2476
 }
 
 h1,
@@ -167,7 +164,7 @@ h4 {
 }
 
 p {
-    margin-top: 0.2em;
+    margin-top: 0.5em;
     margin-bottom: 0em
 }
 
@@ -249,12 +246,13 @@ blockquote {
     border-left: 0.25em solid #D4D5D9;
     font-style: italic;
     font-weight: 400;
-    color: #595B66;
+    color: #595B66 !important;
     background: transparent
 }
 
 blockquote * {
-    margin: 0em auto
+    margin: 0em auto;
+    color: #595B66 !important;
 }
 
 blockquote *:first-child {
@@ -1096,7 +1094,6 @@ body {
     bottom: 0;
     font-size: 0.75em;
     line-height: 1.334em;
-    background: #1F2026;
     color: #737580;
     z-index: 20;
     transition: all ease-out 0.4s;
