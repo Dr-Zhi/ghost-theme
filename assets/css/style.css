@@ -1781,7 +1781,7 @@ body {
     font-weight: 700;
     color: #363740;
     border: 1px solid #0000FF;
-    transition: all ease-out 0.1s;
+    transition: all ease-out 0.3s;
     border-radius: 4em;
     z-index: 60
 }
